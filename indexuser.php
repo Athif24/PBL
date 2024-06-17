@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -40,7 +44,7 @@
           </div>
         </div>
         <div class="card-body" >
-          <form action="submit_survey.php" method="post" ">
+          <form action="submit_survey_mahasiswa.php" method="post">
             <div class="form-group row">
               <div class="col-md-6">
                 <label for="responden_nim">NIM</label>
